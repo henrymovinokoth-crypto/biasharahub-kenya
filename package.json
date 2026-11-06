@@ -1,0 +1,25 @@
+{
+  "name": "biasharahub-kenya",
+  "version": "1.0.0",
+  "description": "Kenya Marketplace for Businesses, Products, Jobs & Institution Advertising with M-Pesa Integration",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "marketplace",
+    "kenya",
+    "mpesa",
+    "business-directory",
+    "jobs",
+    "classifieds"
+  ],
+  "author": "Henry Okoth",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5",
+    "multer": "^1.4.5-lts.1"
+  }
+}
